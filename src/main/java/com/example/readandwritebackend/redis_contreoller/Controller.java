@@ -22,7 +22,6 @@ import java.util.concurrent.locks.LockSupport;
 @CrossOrigin("*")
 public class Controller {
     private static HashMap hashMap = new HashMap();
-    private int a=10;
     @Autowired
     public RedisUtil redisUtil;
 
